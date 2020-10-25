@@ -1,5 +1,5 @@
 ---
 category: 'experiences section'
-title: 'Selected Clients'
-subtitle: 'Who We Work With'
+title: 'All Companies'
+subtitle: 'My Experience'
 ---

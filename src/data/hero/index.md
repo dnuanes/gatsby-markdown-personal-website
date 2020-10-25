@@ -1,8 +1,8 @@
 ---
 category: 'hero section'
-title: 'Frontend Developer'
-subtitle: 'I am the Great Gatsby'
-content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+title: 'Better Emails'
+subtitle: 'Let's make email marketing work for you.'
+content: 'Better Emails is an email marketing consultancy. Our services include email template design/development, campaign creation, and marketing strategy sessions.'
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---

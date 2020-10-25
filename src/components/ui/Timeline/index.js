@@ -20,7 +20,9 @@ const Timeline = ({ title, subtitle, content, startDate, endDate }) => (
 Timeline.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
-  content: PropTypes.any.isRequired,  
+  content: PropTypes.any.isRequired,
+  startDate: PropTypes.string.isRequired,
+  endDate: PropTypes.string.isRequired
 };
 
 export default Timeline;

@@ -7,13 +7,14 @@ const mainNavItems = [
     title: 'About Me',
     slug: '/'
   },
-  {
-    title: 'Resume',
-    slug: '/resume/'
-  },
+  
   {
     title: 'Portfolio',
     slug: '/portfolio/'
+  },
+  {
+    title: 'Resume',
+    slug: '/resume/'
   },
   {
     title: 'Blog',

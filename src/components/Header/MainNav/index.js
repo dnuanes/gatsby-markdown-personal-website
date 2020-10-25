@@ -9,10 +9,6 @@ const mainNavItems = [
   },
   
   {
-    title: 'Portfolio',
-    slug: '/portfolio/'
-  },
-  {
     title: 'Resume',
     slug: '/resume/'
   },

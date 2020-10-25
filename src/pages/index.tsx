@@ -12,8 +12,9 @@ const IndexPage: React.FC = () => {
       <SEO title="About Me" />
       <HeroBanner />
       <Services />
-      <hr />
-      <Testimonials />
+      {/* remove testimonials */}
+      {/* <hr />
+      <Testimonials /> */}
     </Layout>
   );
 };

@@ -3,8 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import Container from 'components/ui/Container';
 import TitleSection from 'components/ui/TitleSection';
-// don't import progress bar
-// import ProgressBar from 'components/ui/ProgressBar';
+import ProgressBar from 'components/ui/ProgressBar';
 
 import * as Styled from './styles';
 

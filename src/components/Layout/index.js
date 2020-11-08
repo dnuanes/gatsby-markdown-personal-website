@@ -5,7 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
-import Newsletter from 'components/Newsletter';
+// getting rid of newsletter
+// import Newsletter from 'components/Newsletter';
 
 import 'assets/styles/global.css';
 import GlobalStyles from 'assets/styles/globalStyles';
@@ -35,7 +36,7 @@ const Layout = ({ children }) => {
             transition={{ delay: 0.2 }}
           >
             {children}
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Footer />
           </motion.div>
         </Styled.Layout>

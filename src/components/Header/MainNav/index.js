@@ -15,7 +15,7 @@ const mainNavItems = [
   },
   {
     title: 'Work',
-    slug: '/blog/'
+    slug: '/work/'
   },
   {
     title: 'Contact Me',

@@ -8,6 +8,7 @@ const mainNavItems = [
     slug: '/'
   },
   
+
   {
     title: 'Resume',
     slug: '/resume/'

@@ -13,8 +13,8 @@ const mainNavItems = [
     slug: '/resume/'
   },
   {
-    title: 'Blog',
-    slug: '/blog/'
+    title: 'Work',
+    slug: '/work/'
   },
   {
     title: 'Contact Me',

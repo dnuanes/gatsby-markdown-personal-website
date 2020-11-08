@@ -1,5 +1,5 @@
 ---
 category: 'blog section'
 title: 'Work'
-subtitle: 'What I've done'
+subtitle: 'See my recent work and thoughts on email marketing'
 ---

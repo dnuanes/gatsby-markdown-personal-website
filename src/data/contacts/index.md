@@ -1,5 +1,5 @@
 ---
 category: 'contact section'
-title: 'Contacts'
-subtitle: 'For more info contact me'
+title: 'Ready to Get Better Emails?'
+subtitle: 'Let's Start a Conversation'
 ---

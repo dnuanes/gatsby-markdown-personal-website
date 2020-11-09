@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-export const Banner = styled.section`
+export const Intro = styled.section`
   ${tw`bg-white border-b border-indigo-100 `};
 `;
 

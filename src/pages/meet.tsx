@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
-import RegBanner from 'components/ResBanner';
+import MeetBanner from 'components/MeetBanner';
 import Experience from 'components/Experience';
 import Education from 'components/Education';
 import Skills from 'components/Skills';
@@ -10,7 +10,7 @@ import Skills from 'components/Skills';
 const ExperiencePage: React.FC = () => (
   <Layout>
     <SEO title="Experience" />
-    <RegBanner />
+    <MeetBanner />
     <Experience />
     <hr />
     <Education />

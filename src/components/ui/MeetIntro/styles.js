@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-export const ResIntro = styled.section`
+export const MeetIntro = styled.section`
   ${tw`bg-gray-100 border-b border-indigo-100 `};
 `;
 

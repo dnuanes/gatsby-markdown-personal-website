@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import ResIntro from 'components/ui/ResIntro';
+import MeetIntro from 'components/ui/MeetIntro';
 
 const ResBanner = () => {
   const { markdownRemark } = useStaticQuery(graphql`
@@ -20,7 +20,7 @@ const ResBanner = () => {
   const resBanner = markdownRemark.frontmatter;
 
   return (
-    <ResIntro
+    <MeetIntro
       title={resBanner.title}
       subtitle={resBanner.subtitle}
       content={resBanner.content}     

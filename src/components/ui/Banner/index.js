@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'components/RegBanner/node_modules/gatsby';
+import { Link } from 'gatsby';
 
 import Container from 'components/ui/Container';
 import Button from 'components/ui/Button';

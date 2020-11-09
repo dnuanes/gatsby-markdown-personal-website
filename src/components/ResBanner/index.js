@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import MeetIntro from 'components/ui/MeetIntro';
 
-const ResBanner = () => {
+const MeetBanner = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { category: { eq: "resume intro section" } }) {
@@ -17,21 +17,21 @@ const ResBanner = () => {
     }
   `);
 
-  const resBanner = markdownRemark.frontmatter;
+  const meetBanner = markdownRemark.frontmatter;
 
   return (
     <MeetIntro
-      title={resBanner.title}
-      subtitle={resBanner.subtitle}
-      content={resBanner.content}     
+      title={meetBanner.title}
+      subtitle={meetBanner.subtitle}
+      content={meetBanner.content}     
     />
   );
 };
 
-ResBanner.propTypes = {
+MeetBanner.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
 };
 
-export default ResBanner;
+export default MeetBanner;

@@ -15,12 +15,12 @@ const mainNavItems = [
   
 
   {
-    title: 'About Me',
+    title: 'About',
     slug: '/resume/'
   },
   
   {
-    title: 'Contact Me',
+    title: 'Contact',
     slug: '/contact/'
   }
 ];

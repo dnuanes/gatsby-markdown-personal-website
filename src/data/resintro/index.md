@@ -1,6 +1,6 @@
 ---
 category: 'resume intro section'
-title: 'Experience Intro'
-subtitle: "I'll will say something here"
-content: 'Welcome! Better Emails is an email marketing consultancy owned and operated by me, Dillon Nuanes. I have worked across the email spectrum my entire career building email marketing programs from the ground up. Better Emails is how I offer my skills to a wider audience. I use this website to advertise Better Emails as well as my personal and professional accomplishments.'
+title: 'Who We Are'
+subtitle: "Passionate. Experienced. Motivated."
+content: "Better Emails is owned and operated by me, Dillon Nuanes. I've been working in email marketing my entire career with a focus on using email to realize customer goals."
 ---

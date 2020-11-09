@@ -7,9 +7,9 @@ import Experience from 'components/Experience';
 import Education from 'components/Education';
 import Skills from 'components/Skills';
 
-const AboutPage: React.FC = () => (
+const ResumePage: React.FC = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="Resume" />
     <RegBanner />
     <Experience />
     <hr />
@@ -19,4 +19,4 @@ const AboutPage: React.FC = () => (
   </Layout>
 );
 
-export default AboutPage;
+export default ResumePage;

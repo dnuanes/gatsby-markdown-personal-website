@@ -15,8 +15,8 @@ const mainNavItems = [
   
 
   {
-    title: 'Experience',
-    slug: '/experience/'
+    title: 'Meet',
+    slug: '/meet/'
   },
   
   {

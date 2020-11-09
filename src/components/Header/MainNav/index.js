@@ -10,7 +10,7 @@ const mainNavItems = [
 
   {
     title: 'Work',
-    slug: '/blog/'
+    slug: '/work/'
   },
   
 

@@ -2,7 +2,7 @@
 category: 'hero section'
 title: 'Better Emails'
 subtitle: "Right Message. Right Person. Right Time."
-content: 'Welcome! Better Emails is an email marketing consultancy owned and operated by me, Dillon Nuanes. I have worked across the email spectrum my entire career building email marketing programs from the ground up. Better Emails is how I offer my skills to a wider audience. I use this website to advertise Better Emails as well as my personal and professional accomplishments.'
+content: "Better Email is a consultancy dedicated to helping you realize your email marketing potential. We specialize across the email spectrum to design services that fit your needs. Starting on the ground-level with template design/develop and moving up 10,000 feet to strategically reach customers and increase LTV, we're passionate about solving your email challenges."
 linkTo: '/work/'
 linkText: 'What We Do'
 ---

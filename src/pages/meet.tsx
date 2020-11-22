@@ -9,7 +9,7 @@ import Skills from 'components/Skills';
 
 const ExperiencePage: React.FC = () => (
   <Layout>
-    <SEO title="Experience" />
+    <SEO title="Meet" />
     <MeetBanner />
     <Experience />
     <hr />

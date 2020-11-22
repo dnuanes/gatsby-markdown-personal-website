@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Netlify'
-position: 'Senior Frontend Developer'
-startDate: 'Jun 2015'
-endDate: 'Jan 2018'
+company: 'UC Berkeley Haas School of Business'
+position: 'Email Marketing Manager'
+startDate: 'Sept 2019'
+endDate: 'Dec 2020'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Created and ran the email marketing program for the three MBA programs offered by the Haas School of Business.

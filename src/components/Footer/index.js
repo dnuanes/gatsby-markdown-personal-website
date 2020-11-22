@@ -8,7 +8,7 @@ const Footer = () => (
   <Styled.Footer>
     <Container>
       <Styled.Links>
-        <Styled.Link href="/" rel="noreferrer noopener" target="_blank"  href="">
+        <Styled.Link href="#" rel="noreferrer noopener" target="_self" >
         © 2020 Better Emails LLC 
         </Styled.Link>
         {/* <Styled.Link

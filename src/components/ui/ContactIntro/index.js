@@ -7,20 +7,20 @@ import TitleSection from 'components/ui/TitleSection';
 
 import * as Styled from './styles';
 
-const MeetIntro = ({ title, subtitle, content,}) => (
-  <Styled.MeetIntro>
+const ContactIntro = ({ title, subtitle, content,}) => (
+  <Styled.ContactIntro>
     <Container section>
       <TitleSection title={title} subtitle={subtitle} />
       <Styled.Content>{content}</Styled.Content>    
     </Container>
-  </Styled.MeetIntro>
+  </Styled.ContactIntro>
 );
 
-MeetIntro.propTypes = {
+ContactIntro.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
   content: PropTypes.any.isRequired,
   
 };
 
-export default MeetIntro;
+export default ContactIntro;

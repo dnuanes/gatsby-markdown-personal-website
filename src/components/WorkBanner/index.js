@@ -7,7 +7,7 @@ import WorkIntro from 'components/ui/WorkIntro';
 const WorkBanner = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "meet intro section" } }) {
+      markdownRemark(frontmatter: { category: { eq: "work intro section" } }) {
         frontmatter {
           title
           subtitle

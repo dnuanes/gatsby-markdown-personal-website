@@ -7,7 +7,7 @@ import MeetIntro from 'components/ui/MeetIntro';
 const MeetBanner = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "work intro section" } }) {
+      markdownRemark(frontmatter: { category: { eq: "meet intro section" } }) {
         frontmatter {
           title
           subtitle

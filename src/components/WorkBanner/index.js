@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import MeetIntro from 'components/ui/MeetIntro';
+import WorkIntro from 'components/ui/WorkIntro';
 
-const MeetBanner = () => {
+const WorkBanner = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { category: { eq: "meet intro section" } }) {
@@ -17,21 +17,21 @@ const MeetBanner = () => {
     }
   `);
 
-  const meetBanner = markdownRemark.frontmatter;
+  const workBanner = markdownRemark.frontmatter;
 
   return (
-    <MeetIntro
-      title={meetBanner.title}
-      subtitle={meetBanner.subtitle}
-      content={meetBanner.content}     
+    <WorkIntro
+      title={workBanner.title}
+      subtitle={workBanner.subtitle}
+      content={workBanner.content}     
     />
   );
 };
 
-MeetBanner.propTypes = {
+WorkBanner.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
 };
 
-export default MeetBanner;
+export default WorkBanner;

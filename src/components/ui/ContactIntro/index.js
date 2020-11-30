@@ -8,10 +8,10 @@ import TitleSection from 'components/ui/TitleSection';
 import * as Styled from './styles';
 
 const ContactIntro = ({ center, title, subtitle, content,}) => (
-  <Styled.ContactIntro>
-    <Container section>
+  <Styled.ContactIntro center={center}> 
+    <Container section >
       <TitleSection center={center} title={title} subtitle={subtitle} />
-      <Styled.Content center={center} >{content}</Styled.Content>    
+      <Styled.Content center={center}>{content}</Styled.Content>    
     </Container>
   </Styled.ContactIntro>
 );

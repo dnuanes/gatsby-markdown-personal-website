@@ -24,7 +24,7 @@ const ContactBanner = () => {
       title={contactBanner.title}
       subtitle={contactBanner.subtitle}
       content={contactBanner.content}     
-    />
+    center />
   );
 };
 

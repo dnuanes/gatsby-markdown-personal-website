@@ -6,5 +6,5 @@ export const ContactIntro = styled.section`
 `;
 
 export const Content = styled.p`
-  ${tw`mb-8`};
+  ${tw`mb-8 text-center`};
 `;
